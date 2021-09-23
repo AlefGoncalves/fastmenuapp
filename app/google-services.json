@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "387903858336",
+    "project_id": "cardapiodigital-4086b",
+    "storage_bucket": "cardapiodigital-4086b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387903858336:android:b939769bf8136a7e5ecbc5",
+        "android_client_info": {
+          "package_name": "com.fatecsbc.cardapiodigital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387903858336-h3vlrckn19e4mj436ne013ikdm7u6d5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatecsbc.cardapiodigital",
+            "certificate_hash": "588c7584411c8281dd2006fde3d0d6244c8019af"
+          }
+        },
+        {
+          "client_id": "387903858336-7172n2k1palpgavkq4trr9hae3kt3q3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwppDBtkyR0hkA3U8WvrZP-A9Ko-aQDGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387903858336-7172n2k1palpgavkq4trr9hae3kt3q3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

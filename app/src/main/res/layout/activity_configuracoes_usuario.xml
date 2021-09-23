@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ConfiguracoesUsuarioActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <EditText
+                android:id="@+id/editUsuarioNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Digite seu nome"
+                android:inputType="text"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/editUsuarioEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="text"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/textSelecionarEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Selecione seu Estado" />
+
+            <Spinner
+                android:id="@+id/spinnerEstados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:scrollbarStyle="outsideOverlay" />
+
+            <EditText
+                android:id="@+id/editUsuarioEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:inputType="text"
+                android:padding="16dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/editUsuarioNascimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Data nascimento (xx/xx/xxxx) "
+                android:inputType="date"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/editUsuarioCPF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Digite seu CPF"
+                android:inputType="number"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/editUsuarioTelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Digite seu telefone (11 Dígitos)"
+                android:inputType="number|phone"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/textTermosEmp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:linksClickable="false"
+                android:text="Ler os termos de uso e política de privacidade"
+                android:textColor="@color/design_default_color_primary_dark" />
+
+            <CheckBox
+                android:id="@+id/termosCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Li e estou de acordo com os termos de uso" />
+
+            <Button
+                android:id="@+id/buttonSalvarUsuario"
+                style="@style/botaoPadrao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Salvar" />
+
+            <Button
+                android:id="@+id/buttonDeletar"
+                style="@style/botaoPadrao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#E90C0C"
+                android:onClick="deletarConta"
+                android:padding="16dp"
+                android:text="DELETAR CONTA"
+                android:textColor="#FAFAFA" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

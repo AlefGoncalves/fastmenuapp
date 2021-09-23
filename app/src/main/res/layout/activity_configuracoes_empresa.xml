@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fatecsbc.cardapiodigital.activity.ConfiguracoesEmpresaActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imagePerfilEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/imagem2" />
+
+            <EditText
+                android:id="@+id/editEmpresaNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Nome empresa"
+                android:inputType="text"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/textSelecionarEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Selecione seu Estado" />
+
+            <Spinner
+                android:id="@+id/spinnerEstados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:scrollbarStyle="outsideOverlay" />
+
+            <EditText
+                android:id="@+id/editEmpresaEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:inputType="text"
+                android:padding="16dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/editEmpresaCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Categoria"
+                android:inputType="text"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/editEmpresaTempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="CNPJ"
+                android:inputType="number"
+                android:padding="16dp" />
+
+            <EditText
+                android:id="@+id/editEmpresaSlogan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/bg_edit_text"
+                android:ems="10"
+                android:hint="Slogan"
+                android:inputType="text"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/textTermosEmp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:linksClickable="false"
+                android:text="Ler os termos de uso e política de privacidade"
+                android:textColor="@color/design_default_color_primary_dark" />
+
+            <CheckBox
+                android:id="@+id/termosCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Li e estou de acordo com os termos de uso" />
+
+            <Button
+                android:id="@+id/buttonAcesso2"
+                style="@style/botaoPadrao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Salvar" />
+
+            <Button
+                android:id="@+id/buttonDeletar"
+                style="@style/botaoPadrao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#E90C0C"
+                android:onClick="deletarConta"
+                android:padding="16dp"
+                android:text="DELETAR CONTA"
+                android:textColor="#FAFAFA" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
