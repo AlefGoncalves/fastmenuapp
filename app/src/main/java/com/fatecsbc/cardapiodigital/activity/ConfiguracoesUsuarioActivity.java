@@ -26,7 +26,7 @@ import android.widget.Toast;
 import com.fatecsbc.cardapiodigital.R;
 import com.fatecsbc.cardapiodigital.helper.ConfiguracaoFirebase;
 import com.fatecsbc.cardapiodigital.helper.UsuarioFirebase;
-import com.fatecsbc.cardapiodigital.model.Usuario;
+import com.fatecsbc.cardapiodigital.model.entities.Usuario;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseUser;

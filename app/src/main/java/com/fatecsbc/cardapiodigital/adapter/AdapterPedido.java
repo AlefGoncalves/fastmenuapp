@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.fatecsbc.cardapiodigital.R;
-import com.fatecsbc.cardapiodigital.model.ItemPedido;
-import com.fatecsbc.cardapiodigital.model.Pedido;
+import com.fatecsbc.cardapiodigital.model.entities.ItemPedido;
+import com.fatecsbc.cardapiodigital.model.entities.Pedido;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

@@ -1,7 +1,5 @@
 package com.fatecsbc.cardapiodigital.adapter;
 
-import android.content.Context;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.fatecsbc.cardapiodigital.R;
-import com.fatecsbc.cardapiodigital.model.Empresa;
+import com.fatecsbc.cardapiodigital.model.entities.Empresa;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

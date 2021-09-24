@@ -1,6 +1,5 @@
 package com.fatecsbc.cardapiodigital.activity;
 
-import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,9 +7,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -26,15 +23,13 @@ import com.fatecsbc.cardapiodigital.adapter.AdapterProduto;
 import com.fatecsbc.cardapiodigital.helper.ConfiguracaoFirebase;
 import com.fatecsbc.cardapiodigital.helper.UsuarioFirebase;
 import com.fatecsbc.cardapiodigital.listener.RecyclerItemClickListener;
-import com.fatecsbc.cardapiodigital.model.Produto;
+import com.fatecsbc.cardapiodigital.model.entities.Produto;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
 import com.ogaclejapan.smarttablayout.SmartTabLayout;
-import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
-import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
 
 import java.util.ArrayList;
 import java.util.List;

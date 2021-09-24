@@ -9,17 +9,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Toast;
 
 import com.fatecsbc.cardapiodigital.R;
 import com.fatecsbc.cardapiodigital.adapter.AdapterPedido;
-import com.fatecsbc.cardapiodigital.adapter.AdapterProduto;
 import com.fatecsbc.cardapiodigital.helper.ConfiguracaoFirebase;
 import com.fatecsbc.cardapiodigital.helper.UsuarioFirebase;
-import com.fatecsbc.cardapiodigital.listener.RecyclerItemClickListener;
-import com.fatecsbc.cardapiodigital.model.Pedido;
+import com.fatecsbc.cardapiodigital.model.entities.Pedido;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

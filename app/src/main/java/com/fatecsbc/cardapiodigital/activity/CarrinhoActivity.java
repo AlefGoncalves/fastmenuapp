@@ -15,7 +15,7 @@ import com.fatecsbc.cardapiodigital.R;
 import com.fatecsbc.cardapiodigital.adapter.AdapterCarrinho;
 import com.fatecsbc.cardapiodigital.helper.ConfiguracaoFirebase;
 import com.fatecsbc.cardapiodigital.helper.UsuarioFirebase;
-import com.fatecsbc.cardapiodigital.model.Pedido;
+import com.fatecsbc.cardapiodigital.model.entities.Pedido;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

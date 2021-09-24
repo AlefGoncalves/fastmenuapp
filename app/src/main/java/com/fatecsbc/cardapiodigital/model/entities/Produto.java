@@ -1,4 +1,4 @@
-package com.fatecsbc.cardapiodigital.model;
+package com.fatecsbc.cardapiodigital.model.entities;
 
 import com.fatecsbc.cardapiodigital.helper.ConfiguracaoFirebase;
 import com.google.firebase.database.DatabaseReference;

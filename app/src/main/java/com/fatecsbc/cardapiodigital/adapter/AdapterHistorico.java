@@ -10,9 +10,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.fatecsbc.cardapiodigital.R;
 import com.fatecsbc.cardapiodigital.helper.ConfiguracaoFirebase;
-import com.fatecsbc.cardapiodigital.model.Empresa;
-import com.fatecsbc.cardapiodigital.model.ItemPedido;
-import com.fatecsbc.cardapiodigital.model.Pedido;
+import com.fatecsbc.cardapiodigital.model.entities.Empresa;
+import com.fatecsbc.cardapiodigital.model.entities.ItemPedido;
+import com.fatecsbc.cardapiodigital.model.entities.Pedido;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

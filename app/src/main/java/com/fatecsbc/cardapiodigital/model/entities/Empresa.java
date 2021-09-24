@@ -1,4 +1,4 @@
-package com.fatecsbc.cardapiodigital.model;
+package com.fatecsbc.cardapiodigital.model.entities;
 
 import android.provider.ContactsContract;
 
