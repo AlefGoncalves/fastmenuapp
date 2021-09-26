@@ -18,12 +18,12 @@ public class ItemPedidoDaoFB implements ItemPedidoDao {
     }
 
     @Override
-    public void deleteById(Integer id) {
+    public void deleteById(String id) {
 
     }
 
     @Override
-    public ItemPedido findById(Integer id) {
+    public ItemPedido findById(String id) {
         return null;
     }
 

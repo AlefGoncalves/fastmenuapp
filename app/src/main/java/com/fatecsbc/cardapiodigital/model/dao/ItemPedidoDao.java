@@ -8,7 +8,7 @@ public interface ItemPedidoDao {
 
     void insert(ItemPedido obj);
     void update(ItemPedido obj);
-    void deleteById(Integer id);
-    ItemPedido findById(Integer id);
+    void deleteById(String id);
+    ItemPedido findById(String id);
     List<ItemPedido> findAll();
 }
